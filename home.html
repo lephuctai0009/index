@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+                <div class="pet">
+                    <h2>Pet Shop</h2>
+                </div>
+                <div class="up">
+                    <ul> 
+                        <li>
+                            <a href="">
+                                <img src="image/img.home.png" alt="">HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/img.dog.png" alt="">DOG
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/img.1.png" alt="">CAT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/img.chicken.png" alt="">CHICKEN
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/img.rabbit.png" alt="">RABBIT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="image/img.other.png" alt="">OTHER...
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="down">
+                </div>   
+            <div class="content">
+                <div class="item">
+                    <img src="image/img1.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img2.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img3.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img4.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img5.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img6.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img7.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img8.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img9.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img10.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img11.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img12.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img13.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img14.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img15.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+                <div class="item">
+                    <img src="image/img16.jpeg" alt="">
+                    <a href="">1000$</a>
+                </div>
+            </div>
+            <div id="backtop">
+                <i class="fa-sharp fa-solid fa-chevron-up"></i>
+            </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()) {
+                         $('#backtop').fadeIn();
+                    }else {
+                        $('#backtop').fadeOut();
+                    }
+                });
+                $('#backtop').click(function(){
+                    $('html, body').animate({scrollTop: 0}, 500);
+                })
+            });
+        </script>
+    </body>
+</html>

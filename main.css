@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+   color: red;
+    font-size: 50px;
+}
+h2 {
+    color: var(--text-color);
+    font-size: 20;
+}
+a {color: var(--text-color);}
+.p1 {
+    color: forestgreen;
+}
+img {
+    border-radius: 50%;
+}
+:root {
+    --text-color: rgb(27, 97, 201);
+}
+body {
+    background-color: lightblue;
+    text-align: left;
+}
